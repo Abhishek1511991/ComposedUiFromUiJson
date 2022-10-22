@@ -5,6 +5,7 @@ Design the dynamic ui from the json and render ui component using Composed UI
 Usage Json Structure Form json should consist of steps and fields.
 
 Steps Step directly corresponds to a fragment(or a page) in wizard. It consists of different fields(array of fields), title and next step.
+```json
 
 {
   "count": "1",
@@ -80,6 +81,7 @@ Steps Step directly corresponds to a fragment(or a page) in wizard. It consists 
     "next": "step2"
   }
 }
+```
 
 key - It must be unique in that particular step.
 

@@ -97,13 +97,14 @@ type - must be label for Label.
 
 text - text for Label.
 
-Add library for own application gradle:
+### Add library for own application gradle:
 
 dependencies { implementation lib("dynamicui") }
 
-TODOs Support validation for Checkbox and RadioButton. Improve recylerview adapter as list
+## TODOs 
+Support validation for Checkbox and RadioButton. Improve recylerview adapter as list
 
-Supported Ui Component
+## Supported Ui Component
 
 EDIT_TEXT = "text"
 
@@ -120,4 +121,5 @@ CUSTOM_CARD_VIEW = "card"
 CUSTOM_IMAGE_VIEW = "image"
 
 
-License This project is licensed under the MIT License. Please refer the License.txt file.
+## License 
+This project is licensed under the MIT License. Please refer the License.txt file.

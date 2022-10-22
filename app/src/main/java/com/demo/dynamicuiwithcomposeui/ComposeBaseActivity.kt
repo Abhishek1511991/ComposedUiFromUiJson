@@ -118,7 +118,7 @@ open class ComposeBaseActivity: ComponentActivity() {
     fun RedioButtonFactory(textObj: Fields) {
         RadioButton(selected = true, onClick = {
 
-        },mo)
+        }, modifier = Modifier.background(color = Color.Cyan))
     }
 
     @Composable
